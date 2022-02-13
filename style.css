@@ -1,9 +1,7 @@
-#center {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+#content-conatiner {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,5 +71,10 @@ a:hover {
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   background-color: #6495ff;
+}
+
+#faceload {
+  width: 50vh;
+  height: 50vh;
 }
 /*# sourceMappingURL=style.css.map */
