@@ -9,7 +9,19 @@
         <script src="https://kit.fontawesome.com/d29c05ae15.js" crossorigin="anonymous"></script>
     </head>
     <body>
-            <div id="center">
+            <script type="importmap">
+        {
+            "imports": {
+                "three": "./build/three.module.js",
+                "three/examples/jsm/controls/OrbitControls":"./jsm/controls/OrbitControls.js",
+                //"three/examples/jsm/loaders/PCDLoader.js":"./jsm/loaders/PCDLoader.js"
+            }
+        }
+    </script>
+
+            <div id="content-conatiner" class="center">
+                <div id="faceload" class="">
+                </div>
                 <h1>Oliver D'Esposito</h1> 
                 <h4>{student/programmer}</h4>
                 <h2>
@@ -31,5 +43,6 @@
             <div id="corner">
                 <p>Better WebSite coming soonish™</p>
             </div>
+            <script  type="module" src="index.js"></script>
     </body>
 </html>
