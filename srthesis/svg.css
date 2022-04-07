@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+svg{
+    height: 70vh;
+    width: 70vh;
+}
+
+.clear{
+    fill: transparent;
+}
+
+.full{
+    fill: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+}

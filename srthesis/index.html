@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" type="text/css" href="./svg.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Slide 1 -->
+				<section>
+					<h3>Short From AI based Sentiment Analysis</h3>
+					<p>By Oliver D'Esposito</p>
+					<p>Email: oliverdesposito@gmail.com</p>
+				</section>
+				<!--Question -->
+				<section>
+					<p>What is the ideal AI model for short text sentiment analysis?</p>
+				</section>
+				<!--Definitions -->
+				<section>
+					<h1>Different Types of Neural Networks</h1>
+				</section>
+				<section>			
+					<h3>Sentiment Analysis</h3>
+					<p>A computer determining the emotion of a body of text.</p>
+				</section>
+				<!-- Slide 3caps example-->
+				<section data-auto-animate>
+					<h4>A Example</h4>
+				</section>
+				<section data-auto-animate>
+					<h4>A Example</h4>
+					<p style="text-align: left;">"was taking pictures in the UK and beautiful this fan walked up to me"</p>
+				</section>
+				<section data-auto-animate>
+					<h4>A Example</h4>
+					<p style="text-align: left;">"was taking pictures in the UK and beautiful this fan walked up to me"</p>
+					<p style="text-align: left;">"taking pictures in the UK and horrible this fan walked up to me"</p>
+				</section>
+
+				<section data-auto-animate>
+					<h4>A Example</h4>
+					<p style="color:rgb(45, 151, 155); text-align: left;">"was taking pictures in the UK and beautiful this fan walked up to me"</p>
+					<p style="color: #ff0d0d; text-align: left;">"taking pictures in the UK and horrible this fan walked up to me"</p>
+				</section>
+
+				<!-- Nueral network -->
+				<section>
+					<h3>Neural Network</h3>
+					<p>A type of ML which uses interconnected units (mathematical functions) to learn features of data. These units are organized in layers.</p>
+				</section>
+				<section>
+					<svg id="svg1" xmlns="http://www.w3.org/2000/svg" height="10vh" width="30vw">
+					</svg>
+				</section>
+				<section>
+					<svg id="svg2" xmlns="http://www.w3.org/2000/svg" height="10vh" width="30vw">
+					</svg>
+				</section>
+				<section>
+					<P>Forward Feed Neural Network (FFNN): A network in which data is only moved forward</P>
+				</section>
+
+				<section>
+					<P>Recurrent Neural Network (RNN): Data can be recalled therefor making it effective for sequential data</P>
+				</section>
+
+				<section>
+					<p>Convolutional Neural Network (CNN): recognizes small patterns</p>
+				</section>
+				<section>
+					<p>Long Short Term Memory (LSTM): A RNN that fixed vanishing gradient</p>
+				</section>
+				<section>
+					<p>Gradient Recurrent Neural Network (GRU): A simper and faster version of LSTM</p>
+				</section>
+
+				<!-- Why this topic -->
+				<section>
+					<h2>Why this topic</h2>
+				</section>
+
+				<section>
+					<h3 class="fragment highlight-red" >5,700</h3><p>Tweets per second</p>
+					<h3  class="fragment highlight-red">192,000,000</h3> <p>monetizable daily active users</p>
+				</section>
+
+				<section>
+					<h3>Social Impact</h3>
+					<p>#BML & #MeToo</p>
+				</section>
+
+				<section>
+					<h3>Other Uses</h3>
+					<ul>
+						<li class="fragment">E-Commerce</li>
+						<li class="fragment">Ad Campaigns</li>
+						<li class="fragment">Comments</li>
+						<li class="fragment">Hate</li>
+					</ul>
+				</section>
+
+				<!-- Applied project -->
+	
+				<section>
+					<h1>Applied Project</h1>
+				</section>
+
+				<section>
+					<h3>STEM Thesis</h3>
+				</section>
+
+				<section>
+					<h2>Goal</h2>
+					<p>Collect and analyze Tweet</p>
+				</section>
+				
+				<section>
+					<p>How to get data</p>
+					<ul>
+						<li class="fragment">API</li>
+						<li class="fragment">CRON job</li>
+						<li class="fragment">Database</li>
+					</ul>
+				</section>
+
+				<section>
+					<p>How to get sentiment</p>
+					<pre class="fragment"><code data-trim data-noescape>"#AEWRevolution 😃 -😭 -😢 -😥 -😞 -☹️ -😡"</code></pre>
+				</section>
+
+				<section>
+					<h3><b>Extracting information</b></h3>
+					<ul>
+						<li class="fragment">Tensorflow</li>
+						<li class="fragment">Numpy</li>
+						<li class="fragment">MatPlotlib</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Lessons learned</h3>
+					<ul>
+						<li class="fragment">Backups</li>
+						<li class="fragment">Tests</li>
+						<li class="fragment">Docker</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Code</h3>
+					<pre><code  data-trim data-noescape>
+class trend_query_genertor():
+    def __init__(self, emoji_querys, trends) -> None:
+        self.emoji_querys = emoji_querys
+        self.trends = trends.__iter__()
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        query_obj_list = []
+
+        trend_search_term = self.trends.__next__()
+        output_objs = []
+
+        for emoji_obj in self.emoji_querys:
+            trend_obj = emoji_obj.copy()
+
+            trend_obj['query'] = f"{trend_search_term} {emoji_obj['query']} -is:retweet"            
+            trend_obj['trend'] = trend_search_term
+
+            output_objs.append(trend_obj)
+
+        return  output_objs
+					</code></pre>
+				</section>
+
+				<section>
+					<h3>Opposing view</h3>
+					<ul>
+						<li class="fragment">Complexity</li>
+						<li class="fragment">Sequence</li>
+					</ul>
+				</section>
+
+
+
+				<section>
+					<h2>data conclusions</h2>
+				</section>
+
+				<section>
+					<H4>Word Count</H4>
+					<p><b>37.6</b> Average</p>
+					<p><b>21</b> Median</p>
+				</section>
+
+				<section>
+				<h2>Paper conclusions</h2>
+				<p>CNNs are best fitted for short text sentiment analysis</p>
+				</section>
+
+				<section>
+				<h2>Future questions</h2>
+				<p>Dialects?</p>
+				<p>Cultural nuance?</p>
+				</section>
+
+				<section>
+					<h4>Works cited</h4>
+				</section>
+
+				<section>
+					<p>Thank you</p>
+				</section>
+				<section>
+					<h4>Questions?</h4>
+				</section>
+
+
+				
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="./addons.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
