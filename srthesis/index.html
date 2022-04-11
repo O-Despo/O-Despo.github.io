@@ -59,34 +59,57 @@
 				</section>
 
 				<!-- Nueral network -->
-				<section>
+				<section data-auto-animate>
 					<h3>Neural Network</h3>
 					<p>A type of ML which uses interconnected units (mathematical functions) to learn features of data. These units are organized in layers.</p>
 				</section>
-				<section>
-					<svg id="svg1" xmlns="http://www.w3.org/2000/svg" height="10vh" width="30vw">
-					</svg>
+				<section data-auto-animate>
+					<h3>Neural Network</h3>
+					<img src="./svg/NeuralDiagram.png" style="background: transparent" height="500vh">
 				</section>
-				<section>
+				<!-- <section>
 					<svg id="svg2" xmlns="http://www.w3.org/2000/svg" height="10vh" width="30vw">
 					</svg>
+				</section> -->
+				
+				<section data-auto-animate>
+					<p>Forward Feed Neural Network (FFNN): A network in which data is only moved forward</p>
 				</section>
-				<section>
+
+				<section data-auto-animate>
 					<P>Forward Feed Neural Network (FFNN): A network in which data is only moved forward</P>
+					<img src="./svg/FFFN.png">
 				</section>
 
-				<section>
-					<P>Recurrent Neural Network (RNN): Data can be recalled therefor making it effective for sequential data</P>
+				<section data-auto-animate>
+					<p>Recurrent Neural Network (RNN): Data can be recalled therefor making it effective for sequential data</p>
+				</section>
+				<section data-auto-animate>
+					<p>Recurrent Neural Network (RNN): Data can be recalled therefor making it effective for sequential data</p>
+					<img src="./svg/RNN.png">
 				</section>
 
-				<section>
+				<section data-auto-animate>
 					<p>Convolutional Neural Network (CNN): recognizes small patterns</p>
 				</section>
-				<section>
+				<section data-auto-animate>
+					<p>Convolutional Neural Network (CNN): recognizes small patterns</p>
+					<img src="./svg/CNN.png">
+				</section>
+				<section data-auto-animate>
 					<p>Long Short Term Memory (LSTM): A RNN that fixed vanishing gradient</p>
 				</section>
-				<section>
+				<section data-auto-animate>
+					<p>Long Short Term Memory (LSTM): A RNN that fixed vanishing gradient</p>
+					<img src="./svg/RNN.png">
+				</section>
+
+				<section data-auto-animate>
 					<p>Gradient Recurrent Neural Network (GRU): A simper and faster version of LSTM</p>
+				</section>
+				<section data-auto-animate>
+					<p>Gradient Recurrent Neural Network (GRU): A simper and faster version of LSTM</p>
+					<img src="./svg/GRU.png">
 				</section>
 
 				<!-- Why this topic -->
@@ -106,7 +129,7 @@
 
 				<section>
 					<h3>Other Uses</h3>
-					<ul>
+					<ul style="list-style-type: none;">
 						<li class="fragment">E-Commerce</li>
 						<li class="fragment">Ad Campaigns</li>
 						<li class="fragment">Comments</li>
@@ -126,26 +149,33 @@
 
 				<section>
 					<h2>Goal</h2>
-					<p>Collect and analyze Tweet</p>
+					<p>Collect and analyze Tweets</p>
 				</section>
 				
 				<section>
-					<p>How to get data</p>
-					<ul>
+					<p>My process</p>
+					<ul style="list-style-type: none;">
 						<li class="fragment">API</li>
 						<li class="fragment">CRON job</li>
 						<li class="fragment">Database</li>
 					</ul>
 				</section>
 
-				<section>
-					<p>How to get sentiment</p>
-					<pre class="fragment"><code data-trim data-noescape>"#AEWRevolution 😃 -😭 -😢 -😥 -😞 -☹️ -😡"</code></pre>
+				<section data-auto-animate>
+					<p>How to know the sentiment of a tweet</p>
 				</section>
+				<section data-auto-animate="">
+					<p>How to get sentiment</p>
+					<pre class="fragment"><code data-trim data-noescape>
+						"#AEWRevolution 😃 -😭 -😢 -😥 -😞 -☹️ -😡"
+						"#BBMA ☹️"
+					</code></pre>
+				</section>
+
 
 				<section>
 					<h3><b>Extracting information</b></h3>
-					<ul>
+					<ul style="list-style-type: none;">
 						<li class="fragment">Tensorflow</li>
 						<li class="fragment">Numpy</li>
 						<li class="fragment">MatPlotlib</li>
@@ -154,7 +184,7 @@
 
 				<section>
 					<h3>Lessons learned</h3>
-					<ul>
+					<ul style="list-style-type: none;">
 						<li class="fragment">Backups</li>
 						<li class="fragment">Tests</li>
 						<li class="fragment">Docker</li>
@@ -193,37 +223,161 @@ class trend_query_genertor():
 				<section>
 					<h3>Opposing view</h3>
 					<ul>
-						<li class="fragment">Complexity</li>
-						<li class="fragment">Sequence</li>
+						<li class="fragment">Basic models should be used</li>
+						<li class="fragment">Sequence is needed for Twitter analysis</li>
 					</ul>
 				</section>
-
-
 
 				<section>
 					<h2>data conclusions</h2>
 				</section>
 
-				<section>
+				<section data-auto-animate>
+					<H4>Word Count</H4>
+					<img src="./svg/whisker.png" height="500vh" width="500vh">
+				</section>
+				<section data-auto-animate>
 					<H4>Word Count</H4>
 					<p><b>37.6</b> Average</p>
 					<p><b>21</b> Median</p>
 				</section>
 
-				<section>
+				<section data-auto-animate>
 				<h2>Paper conclusions</h2>
 				<p>CNNs are best fitted for short text sentiment analysis</p>
 				</section>
 
+				<section data-auto-animate>
+				<p>CNNs are <i class="fragment highlight-red">best</i> fitted for short text sentiment analysis</p>
+				</section>
+				<section data-auto-animate>
+				<p><i class="fragment highlight-red">CNNs are best fitted</i> <i class="fragment highlight-red">for</i> <i class="fragment highlight-red">short text</i> <i class="fragment highlight-red">sentiment analysis</i></p>
+				</section>
+
+
+
 				<section>
 				<h2>Future questions</h2>
-				<p>Dialects?</p>
-				<p>Cultural nuance?</p>
+				<p>How would a change in dialects effect my conclusion?</p>
+				<p>Is sequence more important for cultural nuance?</p>
 				</section>
 
 				<section>
-					<h4>Works cited</h4>
+					<h4>References</h4>
+					<div style="font-size: 1.8rem;">
+  <pre><i>About Keras</i> [Fact sheet]. (n.d.). Keras.io. Retrieved December 15, 2021, from https://keras.io/ </pre>
+  <pre>     about/ </pre>
+  <pre>Anderson, M., Barthel, M., Vogels, E. A., &amp; Perrin, A. (2020, June). <i>#BlackLivesMatter surges on </i></pre>
+  <pre>     <i>Twitter after George Floyd's death</i>. Pew Reshearch Center. Retrieved October 13, 2021, from </pre>
+  <pre>     https://www.pewresearch.org/fact-tank/2020/06/10/ </pre>
+  <pre>     blacklivesmatter-surges-on-twitter-after-george-floyds-death/ </pre>
+  <pre>Assenmacher, D., Adam, L., Trautmann, H., &amp; Grimme, C. (2020, May). Towards real-time and </pre>
+  <pre>     unsupervised campaign detection in social media. In <i>The Thirty-Third International Flairs </i></pre>
+  <pre>     <i>Conference</i>. </pre>
+  <pre>Batrinca, B., &amp; Treleaven, P. C. (2014). Social media analytics: A survey of techniques, tools and </pre>
+  <pre>     platforms. <i>AI &amp; SOCIETY</i>, <i>30</i>(1), 89-116. https://doi.org/10.1007/s00146-014-0549-4 </pre>
+  <pre><i>BLAS (Basic Linear Algebra Subprograms)</i> [Fact sheet]. (29, June 6). netlib.org. Retrieved December </pre>
+  <pre>     15, 2021, from https://www.netlib.org/blas/ </pre>
+  <pre>Browlee, J. (2019, August 12). A Tour of Machine Learning Algorithms. </pre>
+  <pre>     https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/ </pre>
+  					</div>
 				</section>
+
+				<section>
+					<h4>References</h4>
+					<div style="font-size: 1.8rem">
+<pre>Chollet, F. (n.d.). <i>Dropout layer</i>. Keras.io/. Retrieved December 15, 2021, from https://keras.io/api/ </pre>
+  <pre>     layers/regularization_layers/dropout/ </pre>
+  <pre>Dettmers, T. (2015, November 3). Deep Learning in a Nutshell: Core Concepts. <i>Deveoper Blog</i>. </pre>
+  <pre>     https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/ </pre>
+  <pre>Ghannay, S., Favre, B., Est�ve, Y., &amp; Camelin, N. (2016). Word Embedding Evaluation and </pre>
+  <pre>     Combination. <i>LREC</i>. </pre>
+  <pre>Ghelani, S. (2019, June 2). Text Classification � RNN's or CNN's? <i>Towards Data Science</i>. </pre>
+  <pre>     https://towardsdatascience.com/text-classification-rnns-or-cnn-s-98c86a0dd361 </pre>
+  <pre>Gundecha, P., &amp; Liu, H. (2012). Mining social media: A brief introduction. <i>2012 TutORials in </i></pre>
+  <pre>     <i>Operations Research</i>, 1-17. https://doi.org/10.1287/educ.1120.0105 </pre>
+    <pre>Hussein, D. M. E.-D. M. (2018). A survey on sentiment analysis challenges. <i>Journal of King Saud </i></pre>
+  <pre>     <i>University - Engineering Sciences</i>, <i>30</i>(4), 330-338. https://doi.org/10.1016/J.JKSUES.2016.04.002 </pre>
+  <pre>Jamal, Xianqiao, &amp; Aldabbas. (2019). Deep learning-based sentimental analysis for large-scale </pre>
+  <pre>     imbalanced twitter data. <i>Future Internet</i>, <i>11</i>(9), 190. http://dx.doi.org/10.3390/fi11090190 </pre>
+
+					</div>
+				</section>
+
+				<section>
+					<h4>References</h4>
+					<div style="font-size: 1.8rem">
+  <pre>Khan, M., Malviya, A., &amp; Yadav, S. K. (2020). Big data and social media analytics- A challenging </pre>
+  <pre>     approach in processing of big data. <i>Lecture Notes in Electrical Engineering</i>, 611-622. </pre>
+  <pre>     https://doi.org/10.1007/978-981-15-7961-5_59 </pre>
+  <pre>Kirkorian, R. (2013, August 16). New Tweets per second record, and how! <i>Twitter engineering</i>. </pre>
+  <pre>     https://blog.twitter.com/engineering/en_us/a/2013/new-tweets-per-second-record-and-how </pre>
+  <pre>Maheshwari, A., &amp; OpenGenus Foundation. (n.d.). SMOTE for Imbalanced Dataset. <i>OpenGenus</i>. </pre>
+  <pre>     https://iq.opengenus.org/smote-for-imbalanced-dataset/ </pre>
+  <pre>Mehedi shamrat, F. M. J., Chakraborty, S., Imran, M. M., Muna, J. N., Billah, M. M., Das, P., &amp; </pre>
+  <pre>     Rahman, M. O. (2021). Sentiment analysis on twitter tweets about covid-19 vaccines usi ng NLP </pre>
+  <pre>     and supervised KNN classification algorithm. <i>Indonesian Journal of Electrical Engineering and </i></pre>
+  <pre>     <i>Computer Science</i>, <i>23</i>(1), 463. https://doi.org/10.11591/ijeecs.v23.i1.pp463-470 </pre>
+  <pre>Mijwil, Maad. (2018). Artificial Neural Networks Advantages and Disadvantages. </pre>
+
+					</div>
+				</section>
+
+				<section>
+					<h4>References</h4>
+					<div style="font-size: 1.8rem">
+<pre>Nvidia. (2021). <i>CUDA Toolkit</i>. Nvidia.com. https://developer.nvidia.com/cuda-toolkit </pre>
+  <pre>Prabhakaran, S. (2019, March 23). Principal Component Analysis (PCA) � Better Explained. </pre>
+  <pre>     <i>machine Learning +</i>. https://www.machinelearningplus.com/machine-learning/ </pre>
+  <pre>     principal-components-analysis-pca-better-explained/ </pre>
+  <pre>Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C. D., Ng, A. Y., &amp; Potts, C. (2013, </pre>
+  <pre>     October). Recursive deep models for semantic compositionality over a sentiment treebank. In </pre>
+  <pre>     <i>Proceedings of the 2013 conference on empirical methods in natural language processing</i> (pp. </pre>
+  <pre>     1631-1642). </pre>
+  <pre>Staudemeyer, R. C., &amp; Morris, E. R. (2019). Understanding LSTM--a tutorial into Long Short-Term </pre>
+  <pre>     Memory Recurrent Neural Networks. <i>arXiv preprint arXiv:1909.09586</i>. </pre>
+  <pre>T. Makkar, Y. Kumar, A. K. Dubey, �. Rocha and A. Goyal, "Analogizing time complexity of KNN and </pre>
+  <pre>     CNN in recognizing handwritten digits," <i>2017 Fourth International Conference on Image </i></pre>
+  <pre>     <i>Information Processing (ICIIP)</i>, 2017, pp. 1-6, doi: 10.1109/ICIIP.2017.8313707. </pre>
+
+					</div>
+				</section>
+				<section>
+					<h4>References</h4>
+					<div style="font-size: 1.8rem">
+
+   <pre>Tan, W., Wang, X., &amp; Xu, X. (2018). <i>Sentiment Analysis for Amazon Reviews</i>. </pre>
+  <pre>     https://cs229.stanford.edu/proj2018/report/122.pdf </pre>
+  <pre>Twitter Inverstor Relations. (2021, October 26). <i>Selected Company Metrics and Financials</i> [Table]. </pre>
+  <pre>     Twitter Investor Relations. https://s22.q4cdn.com/826641620/files/doc_financials/2021/q3/ </pre>
+  <pre>     Final-Selected-Metrics-and-Financials.pdf </pre>
+  <pre>Varol, O., Ferrara, E., Menczer, F., &amp; Flammini, A. (2017). Early detection of promoted campaigns on </pre>
+  <pre>     social media. <i>EPJ Data Science</i>, <i>6</i>(1). http://dx.doi.org/10.1140/epjds/s13688-017-0111-y </pre>
+  <pre>West, S. (2021, July 22). <i>Digital Activism: Social Movement on Social Media</i> (M. Li, Ed.). Psychology </pre>
+  <pre>     Today. Retrieved October 13, 2021, from https://www.psychologytoday.com/us/blog/ </pre>
+  <pre>     understanding-the-social-world/202107/digital-activism-social-movement-social-media </pre>
+  <pre>Whiting, J. (2020). Tweets show what hinders reports of sexual assault and harassment on campus - </pre>
+  <pre>     and why the new federal title IX rules may be a step back. <i>The Conversation : Education</i>. </pre>
+
+
+					</div>
+				</section>
+
+
+				<section>
+					<h4>References</h4>
+					<div style="font-size: 1.8rem">
+ <pre><i>Why TensorFlow</i> [Fact sheet]. (n.d.). TensorFlow.org. Retrieved December 15, 2021, from </pre>
+  <pre>     https://www.tensorflow.org/about </pre>
+  <pre>Yin, W., Kann, K., Yu, M., &amp; Sch�tze, H. (2017). Comparative study of CNN and RNN for natural </pre>
+  <pre>     language processing. <i>arXiv preprint arXiv:1702.01923</i>. </pre>
+  <pre>Zhang, K. (2018). LSTM: An Image Classification Model Based on Fashion-MNIST Dataset. </pre>
+  <pre>Zhuang, Y., Thiagarajan, A., &amp; Sweeney, T. (2019, March 4). Ranking Tweets with TensorFlow. </pre>
+  <pre>     <i>TensorFlow Blog</i>. https://blog.tensorflow.org/2019/03/ranking-tweets-with-tensorflow.html </pre>
+
+					</div>
+				</section>
+
 
 				<section>
 					<p>Thank you</p>
