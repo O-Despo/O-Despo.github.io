@@ -46,5 +46,3 @@ SVM (Support Vector Machine): A early ML method that ploted point in a space the
 Python: A programing language used to give a computer instructions
 
 TenosorFlow: A tool developed by Google that makes developing AI models far easiers
-
-Fuck they will focus on twitter6
