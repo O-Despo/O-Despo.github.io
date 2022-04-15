@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 6vh;
+  background-color: #191919;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: Source Sans Pro, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 7vh;
+}
+
+p {
+  font-size: 3vh;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 5vh;
+  padding: 4vh;
+}
+
+a .material-icons {
+  font-size: 5vh;
+}
+
+#cont1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  hieght: 100%;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  align-item: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10vh;
+  width: 80%;
+}
+
+.iconLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 5vh;
+}
+
+.iconLink .material-icons {
+  font-size: 5vh;
+}
+/*# sourceMappingURL=index.css.map */

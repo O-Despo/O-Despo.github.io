@@ -1,0 +1,84 @@
+body {
+  background-color: #191919;
+  color: #ffffff;
+  padding: 6vh;
+  font-weight: 600;
+  font-family: Source Sans Pro, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+article {
+  margin: 10vw;
+}
+
+p {
+  font-size: 2vh;
+}
+
+#idTitle {
+  font-size: 5vh;
+}
+
+#header {
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#downloadBar {
+  position: relative;
+  padding-top: 1vh;
+  padding-left: 2vw;
+  width: 60%;
+  height: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 2vw;
+          column-gap: 2vw;
+}
+
+.downloaditem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2vh;
+}
+
+.downloaditem .material-icons {
+  font-size: 2vh;
+}
+
+#downloadTitle {
+  font-size: 2vh;
+  justify-self: flex-start;
+}
+
+subHead {
+  font-size: 4vh;
+}
+/*# sourceMappingURL=paper.css.map */
