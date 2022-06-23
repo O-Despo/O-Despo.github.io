@@ -14,19 +14,6 @@
           align-items: center;
 }
 
-#corner {
-  position: absolute;
-  top: 98%;
-  left: 96%;
-  -webkit-transform: translate(-100%, -100%);
-          transform: translate(-100%, -100%);
-  font-family: 'sans', sans-serif;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  text-justify: right;
-}
-
 body {
   color: white;
   font-family: 'Public Sans', sans-serif;
@@ -65,12 +52,14 @@ a {
   border-radius: 0.5vh;
   margin: 0.5vh;
   padding: 0.5vh;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
 a:hover {
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
-  background-color: #6495ff;
+  color: #ff00ff;
 }
 
 #faceload {
