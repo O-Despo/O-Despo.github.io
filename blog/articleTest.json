@@ -1,0 +1,30 @@
+{
+    "title": "How this web-site works",
+    "author": "Oliver D'Esposito",
+    "date": "7-28-22",
+    "content": [
+        {
+            "type": "p",
+            "txt": "This is a relatively basic web-site for 3 main reasons."
+        },
+        {
+            "type": "list",
+            "list": [
+                "Personal preference",
+                "Skill"
+            ]
+        },
+        {
+            "type": "p",
+            "txt": "lorem ip"
+        },
+        {
+            "type": "img",
+            "src": "/resources/rocks.jpg"
+        },
+        {
+            "type": "h2",
+            "txt": "This is a heading"
+        }
+    ]
+}

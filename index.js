@@ -19,7 +19,7 @@ frame.appendChild(renderer.domElement);
 
 const loader = new PCDLoader();
 
-loader.load('face-3-3pcd.pcd', (points) => {
+loader.load('resources/face-3-3pcd.pcd', (points) => {
         points.geometry.center();
         points.geometry.rotateX( Math.PI );
         points.material.size = 0.2;

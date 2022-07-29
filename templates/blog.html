@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{article.title}}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"}>
+        <link rel="stylesheet" type="text/css" href="/css/blog.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;600&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/d29c05ae15.js" crossorigin="anonymous"></script>
+
+        <link rel="icon" href="/favicon/favicon-32.png" sizes="32x32">
+        <link rel="icon" href="/favicon/favicon-57.png" sizes="57x57">
+        <link rel="icon" href="/favicon/favicon-76.png" sizes="76x76">
+        <link rel="icon" href="/favicon/favicon-96.png" sizes="96x96">
+        <link rel="icon" href="/favicon/favicon-128.png" sizes="128x128">
+        <link rel="icon" href="/favicon/favicon-192.png" sizes="192x192">
+        <link rel="icon" href="/favicon/favicon-228.png" sizes="228x228">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav>
+            <a href="./" class="nav-link">
+                <i class="fa-solid fa-angle-left"></i>
+                Home
+            </a>
+        </nav>
+        <div class="content">
+            <div class="header">
+                <h1>{{'{'}}{{article.title}}{{'}'}}</h1>
+                <h3>{{article.author}}:{{article.date}}</h3>
+            </div>
+            {% for content in article.content %}
+                {% if content.type == "p"%}
+                    <p>{{content.txt}}</p>
+                {% elif content.type == "h2"%}
+                    <h2>{{content.txt}}<h2>
+                {% elif content.type == "h3"%}
+                    <h3>{{content.txt}}<h3>
+                {% elif content.type == "code" %}
+                    <code>{{cotent.txt}}</code>
+                {% elif content.type == "list"%}
+                    <ul>
+                    {% for list_item in content.list%}
+                        <li>{{list_item}}}</li>
+                    {% endfor %}
+                    </ul>
+                {% elif content.type == "img"%}
+                    <img src="{{content.src}}">
+                {% endif %}
+            {% endfor %}
+        </div>
+    </body>
+</html>
