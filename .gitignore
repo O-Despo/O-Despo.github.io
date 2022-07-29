@@ -1,14 +1,14 @@
 lib/
 bin/
-lib64/
+lib64
 parts/
 sdist/
-lib64/
 
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+pyvenv.cfg
 
 pip-log.txt
 pip-delete-this-directory.txt
