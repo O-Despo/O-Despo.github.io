@@ -1,0 +1,4 @@
+baseURL = 'http://oliverdesposito.com/'
+ignorefiles = [ "static/css/.sass*" ]
+languageCode = 'en-us'
+title = 'O-Despo'

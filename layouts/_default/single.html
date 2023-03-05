@@ -1,0 +1,52 @@
+{{ define "main" }}
+    <nav id="link-home">
+        <a href="/">
+            <img class="link-img-mp" id="link-home-img" src="/imgs/face.gif">
+        </a>
+    </nav>
+  <div id="title-group-sp">
+    <h1 id="title-sp">{{ .Title }}</h1>
+      <section>
+        <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} | {{ .WordCount }} Words </h4>
+      </section>
+  </div>
+<div id="sp-wrapper">
+  <section id="main">
+    <div>
+      <article id="content-sp">
+          {{ .Content }}
+      </article>
+    </div>
+  </section>
+  <div id="meta">
+    <!-- <div>
+      {{ with .GetTerms "topics" }}
+        <ul id="topics">
+          {{ range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+          {{ end }}
+        </ul>
+      {{ end }}
+      {{ with .GetTerms "tags" }}
+        <ul id="tags">
+          {{ range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div> -->
+    <div class="pagelink">
+        {{ with .PrevInSection }}
+          <i class="fa-solid fa-caret-left"></i>
+          <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ end }}
+    </div>
+    <div class="pagelink">
+        {{ with .NextInSection }}
+          <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+          <i class="fa-solid fa-caret-right"></i>
+        {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

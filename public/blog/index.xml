@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on O-Despo</title>
+    <link>http://oliverdesposito.com/blog/</link>
+    <description>Recent content in Blogs on O-Despo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Jan 2023 23:06:59 -0500</lastBuildDate><atom:link href="http://oliverdesposito.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1_blog</title>
+      <link>http://oliverdesposito.com/blog/1_blog/</link>
+      <pubDate>Tue, 17 Jan 2023 23:06:59 -0500</pubDate>
+      
+      <guid>http://oliverdesposito.com/blog/1_blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1_blog</title>
+      <link>http://oliverdesposito.com/blog/2_blog/</link>
+      <pubDate>Tue, 17 Jan 2023 23:06:59 -0500</pubDate>
+      
+      <guid>http://oliverdesposito.com/blog/2_blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1_blog</title>
+      <link>http://oliverdesposito.com/blog/3_blog/</link>
+      <pubDate>Tue, 17 Jan 2023 23:06:59 -0500</pubDate>
+      
+      <guid>http://oliverdesposito.com/blog/3_blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1_blog</title>
+      <link>http://oliverdesposito.com/blog/4_blog/</link>
+      <pubDate>Tue, 17 Jan 2023 23:06:59 -0500</pubDate>
+      
+      <guid>http://oliverdesposito.com/blog/4_blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1_blog</title>
+      <link>http://oliverdesposito.com/blog/5_blog/</link>
+      <pubDate>Tue, 17 Jan 2023 23:06:59 -0500</pubDate>
+      
+      <guid>http://oliverdesposito.com/blog/5_blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fist_blog</title>
+      <link>http://oliverdesposito.com/blog/fist_blog/</link>
+      <pubDate>Tue, 17 Jan 2023 22:49:24 -0500</pubDate>
+      
+      <guid>http://oliverdesposito.com/blog/fist_blog/</guid>
+      <description>This is a title is long so I figure out the formating This is a little snippet of conntennt. I think that bledner is a great program and if I learend it better that would be pretty cool. I need to open a bank acount.
+This is a sub header I realized months later that my manager wanted me to demonstrate that I understood my area of expertise without actually implementing the fixes.</description>
+    </item>
+    
+  </channel>
+</rss>

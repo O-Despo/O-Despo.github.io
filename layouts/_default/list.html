@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main>
+    <nav id="link-home">
+        <a href="/">
+            <img class="link-img-mp" id="link-home-img" src="/imgs/face.gif">
+        </a>
+    </nav>
+    <div id="content-mp">
+    <h1 class="h1-mp">{{.Title}}</h1>
+    
+        <div id="link-group-sp">
+        {{ range .Pages }}
+            <div class="blog-link">
+                <a href="{{.Permalink}}">
+                    <b>{{.Title}}</b>
+                    <{{.Date.Format "2006-01-02"}}>
+                    </a>
+            </div>
+        {{ end }}
+        </div>
+    </div>
+</main>
+{{ end }}
