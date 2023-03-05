@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,GAAG;EACZ,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,sCAAsC;CAAG;;AAE1D,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,GAAG;EACd,UAAU,EAAE,MAAM;CAAG;;AAEzB,AAAA,CAAC,CAAC;EACE,SAAS,EAAE,GAAG;CAAG",
+    "sources": [
+        "jargon.sass"
+    ],
+    "names": [],
+    "file": "jargon.css"
+}
