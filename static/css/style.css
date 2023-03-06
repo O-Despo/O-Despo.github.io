@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden; }
+
 body {
   margin: 0;
   padding: 0;
@@ -10,12 +13,7 @@ h1 {
   font-weight: 600; }
 
 .h1-mp {
-  font-size: 4rem;
-  text-align: center;
-  margin-top: 5vh;
-  margin-bottom: 0; }
-
-.h1-mp {
+  font-size: 3.7rem;
   text-align: center;
   margin-top: 5vh;
   margin-bottom: 0; }
@@ -55,6 +53,10 @@ img {
   gap: 1vw;
   text-decoration: none; }
 
+@media (max-width: 486px) {
+  .a-mp {
+    font-size: 1.5rem;
+    gap: 2vw; } }
 .img-mp {
   margin-top: 5vh;
   width: auto;
