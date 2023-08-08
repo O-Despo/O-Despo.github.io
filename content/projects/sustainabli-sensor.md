@@ -6,4 +6,4 @@ draft: true
 
 # Sustainabli's main product the Sashamini Sensor
 
-## [The Sustainabli Landing page](https://sustainabli.org/)
+## [The Sustainabli landing page](https://sustainabli.org/)
