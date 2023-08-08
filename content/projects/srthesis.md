@@ -10,7 +10,7 @@ draft: false
 
 The link above takes you to my high school senior thesis. It was completed as part of my English class and took a few months to put together. While looking back there were things I would have changed overall I am very proud of the work I did on this project.
 
-This is a breif summary that I wrote for my apllicaiotn to [start up shell](https://startupshell.org/).
+This is a brief summary that I wrote for my application to [start up shell](https://startupshell.org/).
 
 ## Evaluation of Deep Learning methods for Sentiment Analysis of Twitter Data
 
