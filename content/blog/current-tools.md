@@ -9,7 +9,7 @@ Given the start of the year and some recent changes to my desktop environment I 
 
 My goal in settings up my environment is to make the process of using my computer efficient and enjoyable. These are the tools I use to do that. 
 
-### Browser: Vivaldi
+## Browser: Vivaldi
 
 The [vast majority of people use Chrome](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#/media/File:StatCounter-browser-ww-monthly-202011-202011-bar.png) or at least something Chromium based. I for a long time was one of the exceptions to the rule, dying on the Firefox hill. My motivation was to not support the seemingly inevitable take over of Chrome and to hold onto what sliver of privacy I still hold. Chrome and chromium derived browsers great browsers and but I think having more than just Chromium based browsers is good for the internet as a whole. [A competitive market  s good](https://arstechnica.com/gadgets/2023/07/googles-web-integrity-api-sounds-like-drm-for-the-web/) for keeping the internet open. I still use Firefox on mobile and on desktop at times but I have succumbed to the Chromium wave.  (Firefox is better for CSS development in my opinion).  
 
