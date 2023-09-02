@@ -17,7 +17,7 @@ One of the key reasons is UMD uses the DUO api for 2 factor authentication and w
 
 I now use [Vivaldi](https://vivaldi.com) for its customization and because its Chromium based but is not Chrome. I can also log into my UMD accounts without trouble. Some things I like, pined tabs, workspaces, minimal extra stuff around the window, and enough ability to make everything just the way I want. Things I don't like, to many pop-ups, takes a long time to configure, and it feels a little heavy at times. Fair warn, if you have a config you like and sync it pulls from the cloud and overwrite your local setup without the option to mix and match. Also if they had the ability to have pined tabs throughout all workspace I think it would be a game changer. I look forward to what they develop in the future. 
 
-![[Screenshot from 2023-09-01 14-45-45.png]]
+![Vivaldi Config](/img/Screenshot from 2023-09-01 14-45-45.png "vivaldi confg")
 
 ## OS: Pop-os
 
@@ -36,7 +36,7 @@ Currently [Alacritty](https://alacritty.org) is my terminal of choice. Why? its 
 
 My main motivation for a configurable WM is the same as most peoples to use the mouse less and work faster (and it makes me feel like a hollywood hacker). I use [I3](https://i3wm.org) mostly for simplicity and access to donation. My first rice used [BSPWM](https://github.com/baskerville/bspwm) which I have nothing against. I just now find it simpler to install and configure I3. Specifically I3 bar does its job well and I don't need to deal with  [Polybar](https://github.com/polybar/polybar).  Also I prefer I3's built in method of creating shortcuts over [sxhkd](https://man.archlinux.org/man/sxhkd.1). Something else I have some to appreciate is once you get the hang of I3 is gives a slightly speedier control. There may be a way to get behavior like Horizontal windows in a Stacked group of other windows in BSPWM but I find it more intuitive in i3.
 
-![[Screenshot from 2023-09-01 16-16-47.png]]
+![I3](/imgs/Screenshot from 2023-09-01 16-16-47.png "window manager")
 
 ## Text Editor: NVIM/VIM
 
