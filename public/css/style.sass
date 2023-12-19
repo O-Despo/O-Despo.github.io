@@ -1,7 +1,10 @@
 $base: #0f0f0f
 $text-color: #FFFFFF
 $acent: #5643E7
-$mobile-break: 700
+$mobile-break: 486px 
+
+html
+    overflow-x: hidden 
 
 body    
     margin: 0
@@ -11,15 +14,11 @@ body
     color: $text-color
 
 h1
-    font-size: 4rem
+    font-size: 3rem
     font-weight: 600
 
 .h1-mp
-    text-align: center
-    margin-top: 5vh
-    margin-bottom: 0
-
-.h1-mp
+    font-size: 3.7rem
     text-align: center
     margin-top: 5vh
     margin-bottom: 0
@@ -36,13 +35,19 @@ h2
     margin-bottom: 6vh
    
 p
+    font-size: 1.46rem
     font-weight: 500
-    text-align: right 
+    text-align: left 
 
 a
     color: $text-color
     font-weight: 500
     text-decoration: none
+    text-decoration: underline
+
+img
+    width: 50vw
+    height: auto
 
 .a-mp
     font-size: 2rem
@@ -50,12 +55,18 @@ a
     
     display: flex
     flex-direction: row
-    justify-content: center 
+    justify-content: space-between 
     align-items: center 
-    gap: 0.5vw
-    
+    gap: 1vw
+    text-decoration: none
+
+@media (max-width: $mobile-break)
+    .a-mp
+        font-size: 1.5rem
+        gap: 2vw
 .img-mp
     margin-top: 5vh
+    width: auto
     height: 40vh
 
 .link-img-mp
@@ -65,6 +76,26 @@ a
 .blog-link
     font-size: 2rem 
 
+#title-group-sp
+    text-align: center
+    margin: 0
+    
+#title-sp
+    text-align: center
+    font-size: 4rem
+    margin-bottom: 0
+
+#sp-wrapper
+    margin: 10vw
+    margin-top: 2vh
+    
+#content-sp
+
+#meta
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    
 #content-mp
     width: 100vw
 

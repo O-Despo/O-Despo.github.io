@@ -2,32 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://oliverdesposito.com/blog/1_blog/</loc>
-    <lastmod>2023-01-17T23:06:59-05:00</lastmod>
+    <loc>http://oliverdesposito.com/art/2023-12-19/</loc>
+    <lastmod>2023-12-19T17:34:53-05:00</lastmod>
   </url><url>
-    <loc>http://oliverdesposito.com/blog/2_blog/</loc>
-    <lastmod>2023-01-17T23:06:59-05:00</lastmod>
-  </url><url>
-    <loc>http://oliverdesposito.com/blog/3_blog/</loc>
-    <lastmod>2023-01-17T23:06:59-05:00</lastmod>
-  </url><url>
-    <loc>http://oliverdesposito.com/blog/4_blog/</loc>
-    <lastmod>2023-01-17T23:06:59-05:00</lastmod>
-  </url><url>
-    <loc>http://oliverdesposito.com/blog/5_blog/</loc>
-    <lastmod>2023-01-17T23:06:59-05:00</lastmod>
-  </url><url>
-    <loc>http://oliverdesposito.com/blog/</loc>
-    <lastmod>2023-01-17T23:06:59-05:00</lastmod>
+    <loc>http://oliverdesposito.com/art/</loc>
+    <lastmod>2023-12-19T17:34:53-05:00</lastmod>
   </url><url>
     <loc>http://oliverdesposito.com/</loc>
-    <lastmod>2023-01-17T23:06:59-05:00</lastmod>
+    <lastmod>2023-12-19T17:34:53-05:00</lastmod>
   </url><url>
-    <loc>http://oliverdesposito.com/blog/fist_blog/</loc>
-    <lastmod>2023-01-17T22:49:24-05:00</lastmod>
+    <loc>http://oliverdesposito.com/blog/</loc>
+    <lastmod>2023-09-01T20:31:50-04:00</lastmod>
   </url><url>
-    <loc>http://oliverdesposito.com/categories/</loc>
+    <loc>http://oliverdesposito.com/blog/current-tools/</loc>
+    <lastmod>2023-09-01T20:31:50-04:00</lastmod>
+  </url><url>
+    <loc>http://oliverdesposito.com/projects/</loc>
+    <lastmod>2023-08-08T00:17:35-04:00</lastmod>
+  </url><url>
+    <loc>http://oliverdesposito.com/projects/sustainabli-sensor/</loc>
+    <lastmod>2023-08-08T00:17:35-04:00</lastmod>
+  </url><url>
+    <loc>http://oliverdesposito.com/projects/base-moji/</loc>
+    <lastmod>2023-03-05T17:20:27-05:00</lastmod>
+  </url><url>
+    <loc>http://oliverdesposito.com/tags/dev/</loc>
+    <lastmod>2023-03-05T16:22:03-05:00</lastmod>
+  </url><url>
+    <loc>http://oliverdesposito.com/tags/intro/</loc>
+    <lastmod>2023-03-05T16:22:03-05:00</lastmod>
   </url><url>
     <loc>http://oliverdesposito.com/tags/</loc>
+    <lastmod>2023-03-05T16:22:03-05:00</lastmod>
+  </url><url>
+    <loc>http://oliverdesposito.com/blog/what-this-blog-is-for/</loc>
+    <lastmod>2023-03-05T16:22:03-05:00</lastmod>
+  </url><url>
+    <loc>http://oliverdesposito.com/art/artplaceholder/</loc>
+    <lastmod>2023-02-24T00:43:59-05:00</lastmod>
+  </url><url>
+    <loc>http://oliverdesposito.com/projects/srthesis/</loc>
+    <lastmod>2023-02-24T00:22:46-05:00</lastmod>
+  </url><url>
+    <loc>http://oliverdesposito.com/categories/</loc>
   </url>
 </urlset>
