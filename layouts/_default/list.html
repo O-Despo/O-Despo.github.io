@@ -7,11 +7,10 @@
     </nav>
     <div id="content-mp">
     <h1 class="h1-mp">{{.Title}}</h1>
-    
         <div id="link-group-sp">
         {{ range .Pages }}
             <div class="blog-link">
-                <a href="{{.Permalink}}">
+                <a style="text-decoration: none;" href="{{.Permalink}}">
                     <b>{{.Title}}</b>
                     <{{.Date.Format "2006-01-02"}}>
                     </a>

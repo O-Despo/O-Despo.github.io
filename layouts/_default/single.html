@@ -36,14 +36,14 @@
       {{ end }}
     </div> -->
     <div class="pagelink">
-        {{ with .PrevInSection }}
+        {{ with .NextInSection }}
           <i class="fa-solid fa-caret-left"></i>
-          <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+          <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
         {{ end }}
     </div>
     <div class="pagelink">
-        {{ with .NextInSection }}
-          <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ with .PrevInSection }}
+          <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
           <i class="fa-solid fa-caret-right"></i>
         {{ end }}
     </div>
